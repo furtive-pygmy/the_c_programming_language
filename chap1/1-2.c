@@ -23,7 +23,7 @@ void celToFahr()
     celsius = C_LOWER;
     while (celsius <= C_UPPER) {
         fahr = celsius * (9.0/5.0) + 32;
-        printf("%6.0f %3.1f\n", celsius, fahr);
+        printf("%3.0f %6.1f\n", celsius, fahr);
         celsius = celsius + C_STEP;
     }
 }
